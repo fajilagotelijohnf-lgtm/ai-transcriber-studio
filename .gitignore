@@ -1,0 +1,5 @@
+/build/
+/downloads/
+/test-results/
+/tests/assets/
+*.log

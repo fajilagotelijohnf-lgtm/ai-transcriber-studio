@@ -1,0 +1,131 @@
+{
+  "Version": "1.2.1",
+  "DefaultModelId": "small",
+  "ScriptSha256": "23BD346375C42162C61921B817DF1E2554CD62CF69F54A41B1AF03E3CB9ED59D",
+  "Whisper": {
+    "Id": "whisper-b5454",
+    "Url": "https://github.com/ggml-org/whisper.cpp/releases/download/b5454/whisper-bin-x64.zip",
+    "HashAlgorithm": "SHA256",
+    "Hash": "6ba69e3482d7826214f90a6a9c84ca07782aec1e1d0c6a7c30c994fd5d816ccb",
+    "DownloadBytes": 8928640,
+    "ExpandedBytes": 30000000
+  },
+  "Ffmpeg": {
+    "Id": "ffmpeg-9.0.2",
+    "Url": "https://github.com/GyanD/codexffmpeg/releases/download/9.0.2/ffmpeg-9.0.2-essentials_build.zip",
+    "HashAlgorithm": "SHA256",
+    "Hash": "60f467265b1e312373dbcd92200c2618a74850f98d3d078e94296bb3fa2047ba",
+    "DownloadBytes": 114768076,
+    "ExpandedBytes": 330000000
+  },
+  "VcRuntime": {
+    "Id": "microsoft-vc14-x64",
+    "Url": "https://download.visualstudio.microsoft.com/download/pr/ebdab8e5-1d7b-4d9f-a11b-cbb1720c3b12/843068991DAAA1F73AD9F6239BCE4D0F6A07A51F18C37EA2A867E9BECA71295C/VC_redist.x64.exe",
+    "HashAlgorithm": "SHA256",
+    "Hash": "843068991DAAA1F73AD9F6239BCE4D0F6A07A51F18C37EA2A867E9BECA71295C",
+    "DownloadBytes": 18731856,
+    "ExpandedBytes": 20000000
+  },
+  "Models": [
+    {
+      "Id": "tiny",
+      "Url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-tiny.bin",
+      "HashAlgorithm": "SHA256",
+      "Hash": "be07e048e1e599ad46341c8d2a135645097a538221678b7acdd1b1919c6e1b21",
+      "DownloadBytes": 77691713,
+      "ExpandedBytes": 77691713,
+      "DisplayName": "tiny - Multilingual (includes Filipino)",
+      "FileName": "ggml-tiny.bin",
+      "Guidance": "Fastest; lowest accuracy"
+    },
+    {
+      "Id": "tiny.en",
+      "Url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-tiny.en.bin",
+      "HashAlgorithm": "SHA256",
+      "Hash": "921e4cf8686fdd993dcd081a5da5b6c365bfde1162e72b08d75ac75289920b1f",
+      "DownloadBytes": 77704715,
+      "ExpandedBytes": 77704715,
+      "DisplayName": "tiny - English only",
+      "FileName": "ggml-tiny.en.bin",
+      "Guidance": "Fastest; lowest accuracy"
+    },
+    {
+      "Id": "base",
+      "Url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-base.bin",
+      "HashAlgorithm": "SHA256",
+      "Hash": "60ed5bc3dd14eea856493d334349b405782ddcaf0028d4b5df4088345fba2efe",
+      "DownloadBytes": 147951465,
+      "ExpandedBytes": 147951465,
+      "DisplayName": "base - Multilingual (includes Filipino)",
+      "FileName": "ggml-base.bin",
+      "Guidance": "Fast; basic accuracy"
+    },
+    {
+      "Id": "base.en",
+      "Url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-base.en.bin",
+      "HashAlgorithm": "SHA256",
+      "Hash": "a03779c86df3323075f5e796cb2ce5029f00ec8869eee3fdfb897afe36c6d002",
+      "DownloadBytes": 147964211,
+      "ExpandedBytes": 147964211,
+      "DisplayName": "base - English only",
+      "FileName": "ggml-base.en.bin",
+      "Guidance": "Fast; basic accuracy"
+    },
+    {
+      "Id": "small",
+      "Url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-small.bin",
+      "HashAlgorithm": "SHA256",
+      "Hash": "1be3a9b2063867b937e64e2ec7483364a79917e157fa98c5d94b5c1fffea987b",
+      "DownloadBytes": 487601967,
+      "ExpandedBytes": 487601967,
+      "DisplayName": "small - Multilingual (includes Filipino)",
+      "FileName": "ggml-small.bin",
+      "Guidance": "Recommended balance"
+    },
+    {
+      "Id": "small.en",
+      "Url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-small.en.bin",
+      "HashAlgorithm": "SHA256",
+      "Hash": "c6138d6d58ecc8322097e0f987c32f1be8bb0a18532a3f88f734d1bbf9c41e5d",
+      "DownloadBytes": 487614201,
+      "ExpandedBytes": 487614201,
+      "DisplayName": "small - English only",
+      "FileName": "ggml-small.en.bin",
+      "Guidance": "Recommended balance"
+    },
+    {
+      "Id": "medium",
+      "Url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-medium.bin",
+      "HashAlgorithm": "SHA256",
+      "Hash": "6c14d5adee5f86394037b4e4e8b59f1673b6cee10e3cf0b11bbdbee79c156208",
+      "DownloadBytes": 1533763059,
+      "ExpandedBytes": 1533763059,
+      "DisplayName": "medium - Multilingual (includes Filipino)",
+      "FileName": "ggml-medium.bin",
+      "Guidance": "More accuracy; slower"
+    },
+    {
+      "Id": "medium.en",
+      "Url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-medium.en.bin",
+      "HashAlgorithm": "SHA256",
+      "Hash": "cc37e93478338ec7700281a7ac30a10128929eb8f427dda2e865faa8f6da4356",
+      "DownloadBytes": 1533774781,
+      "ExpandedBytes": 1533774781,
+      "DisplayName": "medium - English only",
+      "FileName": "ggml-medium.en.bin",
+      "Guidance": "More accuracy; slower"
+    },
+    {
+      "Id": "large-v3",
+      "Url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-large-v3.bin",
+      "HashAlgorithm": "SHA256",
+      "Hash": "64d182b440b98d5203c4f9bd541544d84c605196c4f7b845dfa11fb23594d1e2",
+      "DownloadBytes": 3095033483,
+      "ExpandedBytes": 3095033483,
+      "DisplayName": "large-v3 - Multilingual (includes Filipino)",
+      "FileName": "ggml-large-v3.bin",
+      "Guidance": "Most demanding; slow on CPU"
+    }
+  ],
+  "OriginalScriptSha256": "0F9919B1FAD54F41032B39349A206E0D18A6EBB11FA1E5EC1A0F77ED91E35AF0"
+}
